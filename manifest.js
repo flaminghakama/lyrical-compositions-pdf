@@ -4,7 +4,7 @@
 
 var lyricalCompositionsSongs = lyricalCompositionsSongs || {};
 
-lyricalCompositionsSongs["Force of Nature"] = {
+lyricalCompositionsSongs = {
 
     partsInBooks: {
         "Concert Lead Sheets": {
