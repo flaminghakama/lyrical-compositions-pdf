@@ -77,9 +77,9 @@ lyricalCompositionsSongs = {
                 time: "3/4",
                 date: "2000"
             },
-            baseUrl: 'http://altjazz.org/scores/lyrical-compositions', 
+            baseUrl: 'https://altjazz.org/scores/lyrical-compositions/', 
             pdfSubdir: "/",
-            fileLocation: "force-of-nature",
+            fileLocation: "/force-of-nature",
             filePrefix: "force-of-nature-",
             parts: {
                 "Concert Lead Sheet": { fileSuffix: "Lead-Sheet-C" },
