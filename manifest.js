@@ -82,10 +82,10 @@ lyricalCompositionsSongs = {
             fileLocation: "force-of-nature",
             filePrefix: "force-of-nature-",
             parts: {
-                //"Concert Lead Sheet": { fileSuffix: "Lead-Sheet-C" },
+                "Concert Lead Sheet": { fileSuffix: "Lead-Sheet-C" },
             },
             scores: {
-                "Concert Lead Sheet": { fileSuffix: "Lead-Sheet-C" }
+                //"Concert Lead Sheet": { fileSuffix: "Lead-Sheet-C" }
             },
             recordings: {
                 album: {
