@@ -9,41 +9,14 @@ lyricalCompositionsSongs = {
     partsInBooks: {
         "Concert Lead Sheets": {
             "Force of Nature": [ "Concert Lead Sheet" ], 
+            "Frivolity": [ "Concert Lead Sheet" ], 
+            "Jasmine": [ "Concert Lead Sheet" ], 
+            "Just a Cup of Coffee": [ "Concert Lead Sheet" ], 
             "Mark Time": [ "Concert Lead Sheet" ], 
+            "Seven O'Clock Tune": [ "Concert Lead Sheet" ], 
+            "Three Out of Four Nights": [ "Concert Lead Sheet" ], 
         },
     },
-
-// Just a Cup of Coffee
-// (this recording is an extended arrangement, I need to find the Alt Tal trio version...)
-// http://ali-cia.net/mutualadmiration/media/mp3/mao/tracking/Just%20a%20Cup%20of%20Coffee.mp3
-// https://altjazz.org/lessons/pdf/songs/alt/just-a-cup-of-coffee-for-C.pdf
-
-// Frivolity
-// http://alttal.com/media/mp3/open-the-gates/Frivolity.mp3
-// https://altjazz.org/lessons/pdf/songs/alt/frivolity-for-C.pdf
-
-// Jasmine
-// http://alttal.com/media/mp3/open-the-gates/Jasmine.mp3
-// https://altjazz.org/lessons/pdf/songs/alt/jasmine-for-C.pdf
-
-// Force of Nature
-// http://alttal.com/media/mp3/open-the-gates/Force%20of%20Nature.mp3
-// https://altjazz.org/lessons/pdf/songs/alt/force-of-nature-for-C.pdf
-
-// Seven O'Clock Tune
-// http://alttal.com/media/mp3/open-the-gates/Seven%20OClock%20Tune.mp3
-// https://altjazz.org/lessons/pdf/songs/alt/seven-oclock-tune-for-C.pdf
-
-// Three Out of Four Nights
-// http://alttal.com/media/mp3/tri/Three%20Out%20of%20Four%20Nights.mp3
-// https://altjazz.org/lessons/pdf/songs/alt/three-out-of-four-nights-for-C.pdf
-
-
-
-// These next several would require more rehearsal, since the forms are longer, or more tricky rhythms.  So, maybe only one of these.  I'm probably leaning towards Catch Me.
-
-
-// (Note, these are older PDFs that are quite big)
 
 // News from Milan
 // http://alttal.com/media/mp3/open-the-gates/News%20from%20Milan.mp3
@@ -99,6 +72,114 @@ lyricalCompositionsSongs = {
             }
         },
 
+        "Frivolity": {
+            metadata: { 
+                title: "Frivolity",
+                composer: "Elaine Paul",
+                genre: "Ballad",
+                bpm: '64',
+                key: "E", 
+                time: "4/4 with 3/4",
+                date: "2000"
+            },
+            baseUrl: 'https://altjazz.org/scores/lyrical-compositions/', 
+            pdfSubdir: "",
+            fileLocation: "frivolity",
+            filePrefix: "frivolity-",
+            parts: {
+                "Concert Lead Sheet": { fileSuffix: "Lead-Sheet-C" },
+            },
+            scores: {
+                //"Concert Lead Sheet": { fileSuffix: "Lead-Sheet-C" }
+            },
+            recordings: {
+                album: {
+                    description: 'Track 8 from Open the Gates! as mp3',
+                    url: 'http://alttal.com/media/mp3/open-the-gates/Frivolity.mp3'
+                },
+                youtube: {
+                    description: 'From Open the Gates! playlist on youtube',
+                    url: 'https://www.youtube.com/watch?v=NoYvp8pKftY&list=OLAK5uy_mRX13K7hUUUolZs7rAmpikIUX1j2czEUM&index=8'
+                },
+                streamed: {
+                    description: 'Twitch stream from Nonbinary Fully-Automated Luxury Gay Communism #3',
+                    url: 'https://www.twitch.tv/altjazzark'
+                },
+            }
+        },        
+
+        "Jasmine": {
+            metadata: { 
+                title: "Jasmine",
+                composer: "Elaine Paul",
+                genre: "Ballad",
+                bpm: '64',
+                key: "E", 
+                time: "3/4",
+                date: "2000"
+            },
+            baseUrl: 'https://altjazz.org/scores/lyrical-compositions/', 
+            pdfSubdir: "",
+            fileLocation: "jasmine",
+            filePrefix: "jasmine-",
+            parts: {
+                "Concert Lead Sheet": { fileSuffix: "Lead-Sheet-C" },
+            },
+            scores: {
+                //"Concert Lead Sheet": { fileSuffix: "Lead-Sheet-C" }
+            },
+            recordings: {
+                album: {
+                    description: 'Track 6 from Open the Gates! as mp3',
+                    url: 'http://alttal.com/media/mp3/open-the-gates/Jasmine.mp3'
+                },
+                youtube: {
+                    description: 'From Open the Gates! playlist on youtube',
+                    url: 'https://www.youtube.com/watch?v=NoYvp8pKftY&list=OLAK5uy_mRX13K7hUUUolZs7rAmpikIUX1j2czEUM&index=6'
+                },
+                streamed: {
+                    description: 'Twitch stream from Nonbinary Fully-Automated Luxury Gay Communism #3',
+                    url: 'https://www.twitch.tv/altjazzark'
+                },
+            }
+        },        
+
+        "Just a Cup of Coffee": {
+            metadata: { 
+                title: "Just a Cup of Coffee",
+                composer: "Elaine Paul",
+                genre: "Ballad",
+                bpm: '56',
+                key: "D", 
+                time: "4/4",
+                date: "1998"
+            },
+            baseUrl: 'https://altjazz.org/scores/lyrical-compositions/', 
+            pdfSubdir: "",
+            fileLocation: "just-a-cup-of-coffee",
+            filePrefix: "just-a-cup-of-coffee-",
+            parts: {
+                "Concert Lead Sheet": { fileSuffix: "Lead-Sheet-C" },
+            },
+            scores: {
+                //"Concert Lead Sheet": { fileSuffix: "Lead-Sheet-C" }
+            },
+            recordings: {
+                album: {
+                    description: 'Track from Tri',
+                    url: ''
+                },
+                demo: {
+                    description: 'Mutual Admiration Org extended arrangement as mp3',
+                    url: 'http://ali-cia.net/mutualadmiration/media/mp3/mao/tracking/Just%20a%20Cup%20of%20Coffee.mp3'
+                },
+                streamed: {
+                    description: 'Twitch stream from Nonbinary Fully-Automated Luxury Gay Communism #3',
+                    url: 'https://www.twitch.tv/altjazzark'
+                },
+            }
+        },  
+
         "Mark Time": {
             metadata: { 
                 title: "Mark Time",
@@ -106,7 +187,7 @@ lyricalCompositionsSongs = {
                 genre: "Jazz Waltz",
                 bpm: '184',
                 key: "E", 
-                time: "3/4",
+                time: "3/4 with 4/4",
                 date: "2000"
             },
             baseUrl: 'https://altjazz.org/scores/lyrical-compositions/', 
@@ -121,7 +202,7 @@ lyricalCompositionsSongs = {
             },
             recordings: {
                 album: {
-                    description: 'Track 3 from Open the Gates!',
+                    description: 'Track 3 from Open the Gates! as mp3',
                     url: 'http://alttal.com/media/mp3/open-the-gates/Mark%20Time.mp3'
                 },
                 youtube: {
@@ -134,5 +215,75 @@ lyricalCompositionsSongs = {
                 },
             }
         },        
+
+        "Seven O'Clock Tune": {
+            metadata: { 
+                title: "Seven O'Clock Tune",
+                composer: "Elaine Paul",
+                genre: "Tal",
+                bpm: '176',
+                key: "A", 
+                time: "3/4",
+                date: "2000"
+            },
+            baseUrl: 'https://altjazz.org/scores/lyrical-compositions/', 
+            pdfSubdir: "",
+            fileLocation: "seven-oclock-tune",
+            filePrefix: "seven-oclock-tune-",
+            parts: {
+                "Concert Lead Sheet": { fileSuffix: "Lead-Sheet-C" },
+            },
+            scores: {
+                //"Concert Lead Sheet": { fileSuffix: "Lead-Sheet-C" }
+            },
+            recordings: {
+                album: {
+                    description: 'Track 10 from Open the Gates! as mp3',
+                    url: 'http://alttal.com/media/mp3/open-the-gates/Seven%20OClock%20Tune.mp3'
+                },
+                youtube: {
+                    description: 'From Open the Gates! playlist on youtube',
+                    url: 'https://www.youtube.com/watch?v=NoYvp8pKftY&list=OLAK5uy_mRX13K7hUUUolZs7rAmpikIUX1j2czEUM&index=10'
+                },
+                streamed: {
+                    description: 'Twitch stream from Nonbinary Fully-Automated Luxury Gay Communism #3',
+                    url: 'https://www.twitch.tv/altjazzark'
+                },
+            }
+        },        
+
+        "Three Out of Four Nights": {
+            metadata: { 
+                title: "Three Out of Four Nights",
+                composer: "Elaine Paul",
+                genre: "ECM",
+                bpm: '144',
+                key: "D", 
+                time: "4/4",
+                date: "2000"
+            },
+            baseUrl: 'https://altjazz.org/scores/lyrical-compositions/', 
+            pdfSubdir: "",
+            fileLocation: "three-out-of-four-nights",
+            filePrefix: "three-out-of-four-nights-",
+            parts: {
+                "Concert Lead Sheet": { fileSuffix: "Lead-Sheet-C" },
+            },
+            scores: {
+                //"Concert Lead Sheet": { fileSuffix: "Lead-Sheet-C" }
+            },
+            recordings: {
+                album: {
+                    description: 'Track from Tri as mp3',
+                    url: 'http://alttal.com/media/mp3/tri/Three%20Out%20of%20Four%20Nights.mp3'
+                },
+                streamed: {
+                    description: 'Twitch stream from Nonbinary Fully-Automated Luxury Gay Communism #3',
+                    url: 'https://www.twitch.tv/altjazzark'
+                },
+            }
+        },        
+
+
     }
 };
