@@ -19,20 +19,20 @@ lyricalCompositionsSongs = {
     },
 
 // News from Milan
-// http://alttal.com/media/mp3/open-the-gates/News%20from%20Milan.mp3
-// http://alttal.com/media/pdf/open-the-gates/news-from-milan.pdf
+// https://alttal.com/media/mp3/open-the-gates/News%20from%20Milan.mp3
+// https://alttal.com/media/pdf/open-the-gates/news-from-milan.pdf
 
 // Catch Me
-// http://alttal.com/media/mp3/open-the-gates/Catch%20Me.mp3
-// http://alttal.com/media/pdf/open-the-gates/catch-me.pdf
+// https://alttal.com/media/mp3/open-the-gates/Catch%20Me.mp3
+// https://alttal.com/media/pdf/open-the-gates/catch-me.pdf
 
 // l'Amoureuse de mon Pere
-// http://alttal.com/media/mp3/open-the-gates/lAmoureuse%20de%20mon%20Pere.mp3
-// http://alttal.com/media/pdf/open-the-gates/lamoureuse-de-mon-pere.pdf
+// https://alttal.com/media/mp3/open-the-gates/lAmoureuse%20de%20mon%20Pere.mp3
+// https://alttal.com/media/pdf/open-the-gates/lamoureuse-de-mon-pere.pdf
 
 // Elaine
-// http://alttal.com/media/mp3/open-the-gates/Elaine.mp3
-// http://alttal.com/media/pdf/open-the-gates/elaine.pdf
+// https://alttal.com/media/mp3/open-the-gates/Elaine.mp3
+// https://alttal.com/media/pdf/open-the-gates/elaine.pdf
 
     songs: {
 
@@ -59,7 +59,7 @@ lyricalCompositionsSongs = {
             recordings: {
                 album: {
                     description: 'Track 3 from Open the Gates! as mp3',
-                    url: 'http://alttal.com/media/mp3/open-the-gates/Force%20of%20Nature.mp3'
+                    url: 'https://alttal.com/media/mp3/open-the-gates/Force%20of%20Nature.mp3'
                 },
                 youtube: {
                     description: 'From Open the Gates! playlist on youtube',
@@ -67,7 +67,7 @@ lyricalCompositionsSongs = {
                 },
                 streamed: {
                     description: 'Twitch stream from Nonbinary Fully-Automated Luxury Gay Communism #3',
-                    url: 'https://www.twitch.tv/altjazzark'
+                    url: 'https://www.twitch.tv/videos/1227467027'
                 },
             }
         },
@@ -95,7 +95,7 @@ lyricalCompositionsSongs = {
             recordings: {
                 album: {
                     description: 'Track 8 from Open the Gates! as mp3',
-                    url: 'http://alttal.com/media/mp3/open-the-gates/Frivolity.mp3'
+                    url: 'https://alttal.com/media/mp3/open-the-gates/Frivolity.mp3'
                 },
                 youtube: {
                     description: 'From Open the Gates! playlist on youtube',
@@ -103,7 +103,7 @@ lyricalCompositionsSongs = {
                 },
                 streamed: {
                     description: 'Twitch stream from Nonbinary Fully-Automated Luxury Gay Communism #3',
-                    url: 'https://www.twitch.tv/altjazzark'
+                    url: 'https://www.twitch.tv/videos/1227467027'
                 },
             }
         },        
@@ -131,7 +131,7 @@ lyricalCompositionsSongs = {
             recordings: {
                 album: {
                     description: 'Track 6 from Open the Gates! as mp3',
-                    url: 'http://alttal.com/media/mp3/open-the-gates/Jasmine.mp3'
+                    url: 'https://alttal.com/media/mp3/open-the-gates/Jasmine.mp3'
                 },
                 youtube: {
                     description: 'From Open the Gates! playlist on youtube',
@@ -139,7 +139,7 @@ lyricalCompositionsSongs = {
                 },
                 streamed: {
                     description: 'Twitch stream from Nonbinary Fully-Automated Luxury Gay Communism #3',
-                    url: 'https://www.twitch.tv/altjazzark'
+                    url: 'https://www.twitch.tv/videos/1227467027'
                 },
             }
         },        
@@ -175,7 +175,7 @@ lyricalCompositionsSongs = {
                 },
                 streamed: {
                     description: 'Twitch stream from Nonbinary Fully-Automated Luxury Gay Communism #3',
-                    url: 'https://www.twitch.tv/altjazzark'
+                    url: 'https://www.twitch.tv/videos/1227467027'
                 },
             }
         },  
@@ -203,7 +203,7 @@ lyricalCompositionsSongs = {
             recordings: {
                 album: {
                     description: 'Track 3 from Open the Gates! as mp3',
-                    url: 'http://alttal.com/media/mp3/open-the-gates/Mark%20Time.mp3'
+                    url: 'https://alttal.com/media/mp3/open-the-gates/Mark%20Time.mp3'
                 },
                 youtube: {
                     description: 'From Open the Gates! playlist on youtube',
@@ -211,7 +211,7 @@ lyricalCompositionsSongs = {
                 },
                 streamed: {
                     description: 'Twitch stream from Nonbinary Fully-Automated Luxury Gay Communism #3',
-                    url: 'https://www.twitch.tv/altjazzark'
+                    url: 'https://www.twitch.tv/videos/1227467027'
                 },
             }
         },        
@@ -239,7 +239,7 @@ lyricalCompositionsSongs = {
             recordings: {
                 album: {
                     description: 'Track 10 from Open the Gates! as mp3',
-                    url: 'http://alttal.com/media/mp3/open-the-gates/Seven%20OClock%20Tune.mp3'
+                    url: 'https://alttal.com/media/mp3/open-the-gates/Seven%20OClock%20Tune.mp3'
                 },
                 youtube: {
                     description: 'From Open the Gates! playlist on youtube',
@@ -247,7 +247,7 @@ lyricalCompositionsSongs = {
                 },
                 streamed: {
                     description: 'Twitch stream from Nonbinary Fully-Automated Luxury Gay Communism #3',
-                    url: 'https://www.twitch.tv/altjazzark'
+                    url: 'https://www.twitch.tv/videos/1227467027'
                 },
             }
         },        
@@ -275,11 +275,11 @@ lyricalCompositionsSongs = {
             recordings: {
                 album: {
                     description: 'Track from Tri as mp3',
-                    url: 'http://alttal.com/media/mp3/tri/Three%20Out%20of%20Four%20Nights.mp3'
+                    url: 'https://alttal.com/media/mp3/tri/Three%20Out%20of%20Four%20Nights.mp3'
                 },
                 streamed: {
                     description: 'Twitch stream from Nonbinary Fully-Automated Luxury Gay Communism #3',
-                    url: 'https://www.twitch.tv/altjazzark'
+                    url: 'https://www.twitch.tv/videos/1227467027'
                 },
             }
         },        
