@@ -9,6 +9,7 @@ lyricalCompositionsSongs = {
     partsInBooks: {
         "Concert Lead Sheets": {
             "Catch Me": [ "Concert Lead Sheet" ], 
+            "Elaine": [ "Concert Lead Sheet" ], 
             "Force of Nature": [ "Concert Lead Sheet" ], 
             "Frivolity": [ "Concert Lead Sheet" ], 
             "Jasmine": [ "Concert Lead Sheet" ], 
@@ -19,14 +20,6 @@ lyricalCompositionsSongs = {
             "Three Out of Four Nights": [ "Concert Lead Sheet" ], 
         },
     },
-
-// Catch Me
-// https://alttal.com/media/mp3/open-the-gates/Catch%20Me.mp3
-// https://alttal.com/media/pdf/open-the-gates/catch-me.pdf
-
-// Elaine
-// https://alttal.com/media/mp3/open-the-gates/Elaine.mp3
-// https://alttal.com/media/pdf/open-the-gates/elaine.pdf
 
     songs: {
 
@@ -42,8 +35,8 @@ lyricalCompositionsSongs = {
             },
             baseUrl: 'https://altjazz.org/scores/lyrical-compositions/', 
             pdfSubdir: "",
-            fileLocation: "force-of-nature",
-            filePrefix: "force-of-nature-",
+            fileLocation: "catch-me",
+            filePrefix: "catch-me-",
             parts: {
                 "Concert Lead Sheet": { fileSuffix: "Lead-Sheet-C" },
             },
@@ -52,16 +45,44 @@ lyricalCompositionsSongs = {
             },
             recordings: {
                 album: {
-                    description: 'Track 3 from Open the Gates! as mp3',
-                    url: 'https://alttal.com/media/mp3/open-the-gates/Force%20of%20Nature.mp3'
+                    description: 'Track 9 from Open the Gates! as mp3',
+                    url: 'https://alttal.com/media/mp3/open-the-gates/Catch%20Me.mp3'
                 },
                 youtube: {
                     description: 'From Open the Gates! playlist on youtube',
-                    url: 'https://www.youtube.com/watch?v=NoYvp8pKftY&list=OLAK5uy_mRX13K7hUUUolZs7rAmpikIUX1j2czEUM&index=3'
+                    url: 'https://www.youtube.com/watch?v=NoYvp8pKftY&list=OLAK5uy_mRX13K7hUUUolZs7rAmpikIUX1j2czEUM&index=9'
                 },
-                streamed: {
-                    description: 'Twitch stream from Nonbinary Fully-Automated Luxury Gay Communism #3',
-                    url: 'https://www.twitch.tv/videos/1227467027'
+            }
+        },
+
+        "Elaine": {
+            metadata: { 
+                title: "Elaine",
+                composer: "Elaine Paul",
+                genre: "Jazz Blues",
+                bpm: '176',
+                key: "D", 
+                time: "4/4",
+                date: "2001"
+            },
+            baseUrl: 'https://altjazz.org/scores/lyrical-compositions/', 
+            pdfSubdir: "",
+            fileLocation: "elaine",
+            filePrefix: "elaine-",
+            parts: {
+                "Concert Lead Sheet": { fileSuffix: "Lead-Sheet-C" },
+            },
+            scores: {
+                //"Concert Lead Sheet": { fileSuffix: "Lead-Sheet-C" }
+            },
+            recordings: {
+                album: {
+                    description: 'Track 11 from Open the Gates! as mp3',
+                    url: 'https://alttal.com/media/mp3/open-the-gates/Elaine.mp3'
+                },
+                youtube: {
+                    description: 'From Open the Gates! playlist on youtube',
+                    url: 'https://www.youtube.com/watch?v=NoYvp8pKftY&list=OLAK5uy_mRX13K7hUUUolZs7rAmpikIUX1j2czEUM&index=11'
                 },
             }
         },
